@@ -43,10 +43,10 @@ class SLL {
             return ""; 
         }
         string += this.head.value; 
-        var runner = this.head.next;
-        while (runner != null) {
-            str += ", " + runner.value; 
-            runner = runner.next; 
+        var mover = this.head.next;
+        while (mover != null) {
+            str += ", " + mover.value; 
+            mover = mover.next; 
         return str;
         }
     }
